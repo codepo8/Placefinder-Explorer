@@ -5,7 +5,7 @@
   Code licensed under the BSD License:
   http://wait-till-i.com/license.txt
 */
-#map{width:100%;height:600px;}
+#map{width:100%;height:500px;}
 h1 span,#f2{position:absolute;top:0;left:-9999em;}
 h1{background:url(placefinder.jpg) no-repeat;line-height:50px;padding-left:100px;color:#393;font-size:180%;}
 #f2.live{position:relative;left:0;}
@@ -18,3 +18,4 @@ form{margin:0 0 10px 0;padding:0;background:#999;border-radius:5px;-moz-border-r
 #ft p{color:#999;text-align:right;font-size:80%;margin:2em 0 0 0;}
 #ft a{color:#333;text-align:right;font-size:80%;}
 #info ul ul{margin:.5em}
+#info {height:440px;overflow:auto;}
