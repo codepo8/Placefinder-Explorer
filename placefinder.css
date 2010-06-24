@@ -1,3 +1,10 @@
+/*
+  Placefinder Explorer by Christian Heilmann
+  http://isithackday.com/hacks/geo/placefinder/
+  Copyright (c)2010 Christian Heilmann
+  Code licensed under the BSD License:
+  http://wait-till-i.com/license.txt
+*/
 #map{width:100%;height:600px;}
 h1 span,#f2{position:absolute;top:0;left:-9999em;}
 h1{background:url(placefinder.jpg) no-repeat;line-height:50px;padding-left:100px;color:#393;font-size:180%;}

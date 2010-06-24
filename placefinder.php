@@ -1,8 +1,16 @@
 <?php
+/*
+  Placefinder Explorer by Christian Heilmann
+  http://isithackday.com/hacks/geo/placefinder/
+  Copyright (c)2010 Christian Heilmann
+  Code licensed under the BSD License:
+  http://wait-till-i.com/license.txt
+*/
 header('Content-type: text/javascript');
+$appid = 'YD-bs4vWJU_JXrmPwSfQ8yStcfWoDA5n51J';
 echo 'placefinder.datain("';
 $latlon = $_GET['latlon'];
-$url='http://where.yahooapis.com/geocode?q='.$latlon.'&gflags=ACR&flags=QRGSTXP&appid=YD-bs4vWJU_JXrmPwSfQ8yStcfWoDA5n51J';
+$url='http://where.yahooapis.com/geocode?q='.$latlon.'&gflags=ACR&flags=QRGSTXP&appid='.$appid;
 $ch = curl_init(); 
 curl_setopt($ch, CURLOPT_URL, $url); 
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); 

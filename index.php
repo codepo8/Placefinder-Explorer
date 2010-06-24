@@ -16,8 +16,6 @@
     <p>This is a demo of the information the new <a href="http://developer.yahoo.com/geo/placefinder/">Yahoo Placefinder</a> API has available for you. Simply <strong>double-click</strong> on the map below to set a marker and see the information stored in the Placefinder dataset.</p>
     <div class="yui-gc">
       <div class="yui-u first">
-        <!--<form id="f"><label for="to">Move the map to:</label><input type="text" name="to" id="to"><input type="submit" value="Go">
-          </form>-->
         <div id="map"></div>
       </div>
       <div class="yui-u">

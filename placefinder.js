@@ -1,3 +1,10 @@
+/*
+  Placefinder Explorer by Christian Heilmann
+  http://isithackday.com/hacks/geo/placefinder/
+  Copyright (c)2010 Christian Heilmann
+  Code licensed under the BSD License:
+  http://wait-till-i.com/license.txt
+*/
 var placefinder = function(){
   var counter = 0,
       data = [],
